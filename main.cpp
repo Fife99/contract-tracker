@@ -10,6 +10,7 @@ int main() {
     std::cout << "Vvedite summu dogovora: ";
     std::cin >> contract.amount;
 
+    std::cout << "=== Registraciya dogovora ===" << std::endl;
     std::cout << "Dogovor No " << contract.number
                << " na summu " << contract.amount
                << " zaregistrirovan." << std::endl;
